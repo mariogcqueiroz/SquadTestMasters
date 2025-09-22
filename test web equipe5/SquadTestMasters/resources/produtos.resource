@@ -13,10 +13,10 @@ Acessar a página de cadastro de produtos
 
 Preencher formulário de produto
     [Arguments]    ${produto}
-    Fill Text    id:nome         ${produto}[nome]
-    Fill Text    id:price        ${produto}[preco]
-    Fill Text    id:description    ${produto}[descricao]
-    Fill Text    id:quantity   ${produto}[quantidade]
+    Fill Text    css=[data-testid="nome"]        ${produto}[nome]
+    Fill Text    css=[data-testid="preco"]        ${produto}[preco]
+    Fill Text    css=[data-testid="descricao"]     ${produto}[descricao]
+    Fill Text    css=[data-testid="quantity"]    ${produto}[quantidade]
 
 Submeter formulário de produto
     Click        css=button[type=submit] >> text=Cadastrar

@@ -1,3 +1,71 @@
+
+{"level":30,"time":"2025-09-22T22:20:28.198Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Listening on 127.0.0.1:52640"}
+(node:71702) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-09-22T22:20:29.287Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-22T22:20:29.575Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-22T22:20:29.576Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-22T22:20:29.576Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-22T22:20:29.580Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-22T22:20:29.581Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ee09b05b32598fe0cf7833b807d36cfb\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=8b39e604-a083-4e04-b7aa-2e6b1adc74eb\"}"}
+{"level":30,"time":"2025-09-22T22:20:29.584Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Setting default timeout for context context=a13bd6f4-3691-459c-b81b-62e289af0fe0 to 10000"}
+{"level":30,"time":"2025-09-22T22:20:29.584Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Changed active context: context=a13bd6f4-3691-459c-b81b-62e289af0fe0"}
+{"level":30,"time":"2025-09-22T22:20:29.921Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-22T22:20:29.921Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Changed active page"}
+{"level":30,"time":"2025-09-22T22:20:31.947Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-22T22:20:31.952Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-22T22:20:32.596Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-22T22:20:32.603Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-22T22:20:32.603Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with xpath=//h2 in page."}
+{"level":30,"time":"2025-09-22T22:20:32.625Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-22T22:20:32.627Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-22T22:20:32.627Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with xpath=//h2 in page."}
+{"level":30,"time":"2025-09-22T22:20:32.638Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Retrieved text for element xpath=//h2 containing Cadastro"}
+{"level":30,"time":"2025-09-22T22:20:32.638Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-22T22:20:32.640Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-22T22:20:32.640Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=input[name=nome] in page."}
+{"level":30,"time":"2025-09-22T22:20:32.645Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-22T22:20:32.647Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-22T22:20:32.647Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-22T22:20:32.649Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-22T22:20:32.651Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-22T22:20:32.651Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-22T22:20:32.670Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-22T22:20:32.672Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2025-09-22T22:20:32.672Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=[data-testid=\"checkbox\"] in page."}
+{"level":30,"time":"2025-09-22T22:20:32.708Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2025-09-22T22:20:32.710Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-22T22:20:32.710Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-22T22:20:32.741Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method click"}
+{"level":30,"time":"2025-09-22T22:20:32.743Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-22T22:20:32.743Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=.jumbotron h1 in page."}
+{"level":30,"time":"2025-09-22T22:20:37.061Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-22T22:20:37.067Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-22T22:20:37.067Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Strict mode is enabled, find Locator with css=.jumbotron h1 in page."}
+{"level":30,"time":"2025-09-22T22:20:37.076Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Retrieved text for element css=.jumbotron h1 containing Bem Vindo admin_tester"}
+{"level":30,"time":"2025-09-22T22:20:37.076Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-22T22:20:37.081Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-22T22:20:37.081Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","Take screenshot with options: ":{"path":"/Users/mario/Documents/GitHub/TestMasters/SquadTestMasters/test web equipe5/SquadTestMasters/tests/reports/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-22T22:20:37.139Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-22T22:20:37.141Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.142Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.143Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.143Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.144Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.144Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.145Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.145Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.146Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Changed active context: context=a13bd6f4-3691-459c-b81b-62e289af0fe0"}
+{"level":30,"time":"2025-09-22T22:20:37.146Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Changing current active page: page=d5dd0938-dc51-457e-9e2c-f0074249c0f2"}
+{"level":30,"time":"2025-09-22T22:20:37.146Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Changed active page"}
+{"level":30,"time":"2025-09-22T22:20:37.152Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-22T22:20:37.160Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Removed page=8d5090de-976c-46d7-a9d4-fc57d36cfea6 from context=a13bd6f4-3691-459c-b81b-62e289af0fe0 page stack"}
+{"level":30,"time":"2025-09-22T22:20:37.169Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-22T22:20:37.171Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.171Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-22T22:20:37.184Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-22T22:20:37.266Z","pid":71702,"hostname":"MacBook-Air-de-Mario.local","msg":"End of node method closeAllBrowsers"}
+=======
 {"level":30,"time":"2025-09-22T19:59:22.286Z","pid":41723,"hostname":"MacBook-Air-de-Mario.local","msg":"Listening on 127.0.0.1:61973"}
 (node:41723) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
