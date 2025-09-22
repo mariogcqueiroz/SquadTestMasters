@@ -2,6 +2,8 @@
 Library    Browser
 Resource    cadastro.resource
 Resource    login.resource
+Resource    produtos.resource
+Library    FakerLibrary
 
 *** Variables ***
 ${BASE_URL}  https://compassuolfront.serverest.dev
