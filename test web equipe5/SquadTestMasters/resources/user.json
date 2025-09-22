@@ -1,0 +1,10 @@
+{
+
+    "create":{
+        "user":{
+            "name":"tester",
+            "email":"test@mail.com",
+            "password":"senha123"
+        }
+    }
+}
