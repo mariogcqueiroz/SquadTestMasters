@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.9.6 on darwin)" generated="2025-09-22T16:59:22.044584" rpa="false" schemaversion="5">
+<suite id="s1" name="Produtos" source="/Users/mario/Documents/GitHub/TestMasters/SquadTestMasters/test web equipe5/SquadTestMasters/tests/produtos.robot">
+<kw name="iniciar sessao" owner="base" type="SETUP">
+<msg time="2025-09-22T16:59:22.129196" level="FAIL">Keyword 'base.iniciar sessao' expected 0 arguments, got 8.</msg>
+<arg>AND</arg>
+<arg>submeter formulario de login</arg>
+<arg>${user}</arg>
+<arg>AND</arg>
+<arg>Wait For Elements State</arg>
+<arg>css=h1 &gt;&gt; text=Bem Vindo</arg>
+<arg>visible</arg>
+<arg>5s</arg>
+<status status="FAIL" start="2025-09-22T16:59:22.129032" elapsed="0.000187">Keyword 'base.iniciar sessao' expected 0 arguments, got 8.</status>
+</kw>
+<test id="s1-t1" name="CT01: Cadastrar produto com sucesso" line="19">
+<msg time="2025-09-22T16:59:22.143122" level="INFO">Starting Browser process /Users/mario/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js using at 127.0.0.1:61973</msg>
+<tag>happy_path</tag>
+<tag>produtos</tag>
+<status status="FAIL" start="2025-09-22T16:59:22.129275" elapsed="0.000174">Parent suite setup failed:
+Keyword 'base.iniciar sessao' expected 0 arguments, got 8.</status>
+</test>
+<test id="s1-t2" name="CT02: Tentar cadastrar produto com campos obrigatórios em branco" line="26">
+<tag>produtos</tag>
+<tag>sad_path</tag>
+<status status="FAIL" start="2025-09-22T16:59:23.376648" elapsed="0.001477">Parent suite setup failed:
+Keyword 'base.iniciar sessao' expected 0 arguments, got 8.</status>
+</test>
+<doc>Cenários de teste para o cadastro de produtos no ServeRest.</doc>
+<status status="FAIL" start="2025-09-22T16:59:22.045323" elapsed="1.335124">Suite setup failed:
+Keyword 'base.iniciar sessao' expected 0 arguments, got 8.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">happy_path</stat>
+<stat pass="0" fail="2" skip="0">produtos</stat>
+<stat pass="0" fail="1" skip="0">sad_path</stat>
+</tag>
+<suite>
+<stat name="Produtos" id="s1" pass="0" fail="2" skip="0">Produtos</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-09-22T16:59:22.053298" level="WARN">Error in file '/Users/mario/Documents/GitHub/TestMasters/SquadTestMasters/test web equipe5/SquadTestMasters/resources/base.resource' on line 23: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
