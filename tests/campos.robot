@@ -1,9 +1,10 @@
 *** Settings ***
-Documentation        Validação de campos obrigatórios de cadastro e produtos
+Documentation        Validação de campos obrigatórios de cadastro de usuários e de produtos e o login
 
 Resource            ../resources/base.resource
 Resource            ../resources/cadastro.resource
 Resource            ../resources/produtos.resource
+Resource            ../resources/login.resource
 Resource            ../resources/campos.resource
 
 Test Setup          iniciar sessao
@@ -49,3 +50,14 @@ CT02:Não permitir campos vazios no cadastro de produto
     Alert should be                      Descricao é obrigatório
     Alert should be                      Quantidade é obrigatório
 
+CT03:Não permitir campos vazios no login
+    [Tags]          login_vazio
+
+    ${login}        Create Dictionary
+    ...             email=${EMPTY}
+    ...             password=${EMPTY}
+
+    submeter formulario de login    ${login}
+
+    Alert should be                      Email é obrigatório
+    Alert should be                      Password é obrigatório
