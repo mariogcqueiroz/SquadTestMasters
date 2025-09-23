@@ -25,7 +25,7 @@ Página de listagem de produtos deve ser exibida
     Wait For Elements State
     ...    css=h1 >> text=Lista dos Produtos
     ...    visible
-    ...    2s
+    ...    5s
 Verificar alertas dos campos obrigatórios
     Get Text    css=.form-text >> nth=0    equal    Nome é obrigatório
     Get Text    css=.form-text >> nth=1    equal    Preco é obrigatório

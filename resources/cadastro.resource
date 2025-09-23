@@ -42,7 +42,7 @@ conferencia do teste
     [Arguments]    ${txt_esperado}    
     ${element}    Set Variable    css=.jumbotron h1
 #verificação
-     Wait For Elements State    ${element}   visible    5                         
+     Wait For Elements State    ${element}   visible    8                         
      Get Text    ${element}   equal    ${txt_esperado}    
          
 Criar e Logar como Administrador Dinâmico
