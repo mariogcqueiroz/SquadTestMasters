@@ -10,7 +10,7 @@ Test Setup          iniciar sessao
 Test Teardown       Take Screenshot 
 
 *** Test Cases ***
-CT01:Não permitir campos vazios no cadastro
+CT01:Não permitir campos vazios no cadastro de usuário
     [Tags]          cadastro_vazio
 
     ${user}         Create Dictionary
@@ -26,4 +26,26 @@ CT01:Não permitir campos vazios no cadastro
     Alert should be                      Nome é obrigatório
     Alert should be                      Email é obrigatório
     Alert should be                      Password é obrigatório
+
+CT02:Não permitir campos vazios no cadastro de produto
+    [Tags]          produto_vazio
+
+    ${produto}      Create Dictionary
+    ...             nome=${EMPTY}
+    ...             preco=${EMPTY}
+    ...             descricao=${EMPTY}
+    ...             quantidade=${EMPTY}
+
+    Criar e Logar como Administrador Dinâmico
+
+    Acessar a página de cadastro de produtos
+
+    Preencher formulário de produto    ${produto}
+
+    Click           xpath=//button[text()="Cadastrar"]
+
+    Alert should be                      Nome é obrigatório
+    Alert should be                      Preco é obrigatório
+    Alert should be                      Descricao é obrigatório
+    Alert should be                      Quantidade é obrigatório
 
