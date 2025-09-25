@@ -23,7 +23,7 @@ Code Review da Squad F12
 - \[ \] Casos de teste possuem tags (`login`, `positivo`, `negativo`, etc.).
 - \[ \] Nomes estão padronizados e consistentes (“Não deve permitir login com campos vazios”).
 - \[ \] Há timeouts explícitos nos asserts pós-login (ex.: dashboard visível em 5s).
-- \[ \] Foram cobertos cenários:
+- Foram cobertos cenários:
   - \[ \] Login válido (usuário comum).
   - \[ \] Login inválido (campos vazios, senha incorreta, usuário inexistente).
 
@@ -155,10 +155,10 @@ User should be logged in
 ### **3\. Sintaxe**
 
 - Ao executar a suíte de testes `shoppingList.robot`, há um warning:
-  - ```
+  -
 on line 25: The '[Return]' setting is deprecated. 
 Use the 'RETURN' statement instead.
-```
+
 
 ### **4\. Cobertura**
 
