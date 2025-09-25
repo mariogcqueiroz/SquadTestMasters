@@ -155,7 +155,7 @@ User should be logged in
 ### **3\. Sintaxe**
 
 - Ao executar a suíte de testes `shoppingList.robot`, há um warning:
-  -
+  
 on line 25: The '[Return]' setting is deprecated. 
 Use the 'RETURN' statement instead.
 
